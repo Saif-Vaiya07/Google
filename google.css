@@ -1,0 +1,178 @@
+body{ margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      
+}
+section{ position: relative;
+         width: 100%;
+         min-height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+
+section header{ position: absolute;
+                top: 0;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section header ul{ display: flex;
+                   justify-content: center;
+                   align-items: center;
+
+}
+
+section header ul li{ list-style: none;
+                      margin-left: 10px;
+}
+
+section header ul li a{ text-decoration: none;
+                        color: black;
+                        font-size: 15px;
+
+}
+
+section header ul li a img{ height: 45px;
+                            width: 45px;
+                            margin-left: -13px;
+                            margin-right: -5px;
+
+}
+
+section header ul li button{ background-color: rgb(83, 83, 254);
+                             color: white;
+                             border: none;
+                             outline: none;
+                             padding: 7px;
+                             border-radius: 3px;
+                             margin-right: 20px;
+                             cursor: pointer;
+                             font-size: 15px;
+
+}
+
+section .main .img1{ height: 100px;}
+
+section .main .img2{ height: 20px;
+      margin-left:-10px ;
+}
+
+
+section .main{ width: 50%;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               margin-top: -100px;
+            
+}
+
+section .main .searchbox{ position: relative;
+                          width: 480px;
+                          margin-left: -70px;
+                          margin-top: 25px;
+}
+
+section .main .searchbox input{ width: 83%;
+                                  position: relative;
+                                  padding: 12px;
+                                  border-radius: 50px;
+                                  outline: none;
+                                  border: 1px solid #ccc;
+                                  font-size: 16px;
+                                  padding-left: 50px;
+                                  padding-right: 100px;
+            
+}
+
+/*microphon and scan icon*/
+section .main .searchbox .icon .helpicon{ display:flex;
+                                         
+}
+
+section .main .searchbox .icon .helpicon div{ 
+      margin-right: 22px;
+}
+ 
+section .main .img3{ height: 26px;
+      margin-top: 0px;
+      margin-right: -5px;
+}
+
+section .main .img4{ height: 20px;
+      margin-top: 3px;
+      margin-right: 8px;
+}
+
+section .main .searchbox .icon{ position: absolute;
+                                top: 0;
+                                display: flex;
+                                padding: 9px 26px;
+                                width: 112%;
+                                justify-content:space-between;
+                                pointer-events: none;
+                                align-items: center;
+
+}
+
+section .main button{ margin-top: 20px;
+
+}
+
+section .main .buttons button{ padding: 10px 17px;
+                               font-size: 12px;
+                               border: none;
+                               outline: none;
+                               border-radius:2px solid transparent;
+                               color: #555;
+                               cursor: pointer;
+                               margin-left: 20px;
+
+}
+
+section .main .buttons button:hover{ border-radius:2px solid #ccc;
+                                     border: 1px solid transparent;
+
+}
+
+section .main .lng{ margin-top: 10px;
+                    font-size: 15px;
+
+}
+section .main .lng a{ text-decoration: none;
+
+}
+
+section .footer{ position: absolute;
+                 bottom: 0;
+                 left: 0;
+                 background-color: #f2f2f2;
+                 width: 100%;
+                 
+}
+
+section .footer .align{ display: flex;
+                        justify-content: space-between;
+                        border-top: 1px solid rgb(0, 0, 0,0.5);
+
+}
+
+section .footer .align ul{ display: flex;
+
+}
+
+section .footer .align ul li{ list-style: none;
+
+}
+
+section .footer .align ul li a{ text-decoration: none;
+                                margin-right: 20px;
+                                color:#555
+
+}
